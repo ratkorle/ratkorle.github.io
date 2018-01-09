@@ -56,115 +56,12 @@ category: Basics
 </div>
 
 */
-.scrollspy-example {
-  position: relative;
-  height: 600px;
-  overflow: auto; }
+html {
+  font-size: 16px; }
 
-.sidebar {
-  background-color: black;
-  padding-top: 150px;
-  padding-left: 20px;
-  font-family: 'Anton', sans-serif;
-  font-size: 30px; }
-
-#scroll1 {
-  height: 600px; }
-
-#scroll2 {
-  height: 600px; }
-
-#scroll3 {
-  height: 600px; }
-
-#scroll4 {
-  height: 600px; }
-
-.heading {
-  padding-bottom: 20px; }
-
-.section2 {
-  background-image: url("../../assets/image/piupiu2.jpg");
-  height: 600px;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.section1 {
-  background-image: url("../../assets/image/section1.png");
-  height: 600px;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.profile {
-  border-radius: 50%;
-  margin-left: 70px; }
-
-.p1 {
-  font-family: 'Anton', sans-serif;
-  font-size: 25px;
-  text-transform: none;
-  color: #007bff;
-  padding: 5px;
-  text-align: center;
-  padding-left: 35px; }
-
-.myskills {
-  font-family: 'Anton', sans-serif;
-  font-size: 80px;
-  color: #007bff;
-  padding-top: 60px;
-  padding-right: 90px;
-  text-align: right; }
-
-.rk {
-  font-family: 'Anton', sans-serif;
-  font-size: 80px;
-  color: #007bff;
-  padding-bottom: 20px;
-  padding-top: 280px;
-  padding-right: 80px;
-  padding-left: 20px; }
-
-.section3 {
-  background-image: url("../../assets/image/blacklamp.png");
-  height: 600px;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-.my {
-  font-family: 'Anton', sans-serif;
-  font-size: 100px;
-  color: #007bff;
-  text-decoration: dashed;
-  text-align: right;
-  padding-top: 150px;
-  padding-right: 30px; }
-
-.work {
-  font-family: 'Anton', sans-serif;
-  font-size: 100px;
-  color: #007bff;
-  text-decoration: dashed;
-  padding-top: 150px;
-  padding-left: 30px; }
-
-.section4 {
-  background-image: url("../../assets/image/johny.jpg");
-  height: 600px;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+.navbar-brand h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2rem; }
 
 /**
  * For modern browsers
