@@ -1,3 +1,86 @@
 html {
   font-size: 16px;
+  height: 100%;
+  margin: 0%;
+}
+body {
+  background-image: url("../../../Inverted-master/assets/image/bw3.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+
+}
+
+//images//
+.image-container {
+  overflow: hidden;
+}
+
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+// media querries //
+@media only screen and (max-width : 320px) {
+  html {
+    font-size: 12px;
+  }
+
+}
+@media only screen and (max-width: 420px) {
+  html {
+    font-size: 13px;
+  }
+
+
+}
+@media only screen and (max-width : 480px) {
+  html {
+    font-size: 13px;
+  }
+
+
+}
+@media only screen and (min-width : 480px) {
+  html {
+    font-size: 14px;
+  }
+
+
+}
+
+@media only screen and (min-width : 768px) {
+  html {
+    font-size: 16px;
+  }
+
+
+}
+
+
+
+@media only screen and (min-width : 992px) {
+  html {
+    font-size: 16px;
+  }
+
+
+}
+
+
+@media only screen and (min-width : 1200px) {
+  html {
+    font-size: 18px;
+  }
+
+
 }

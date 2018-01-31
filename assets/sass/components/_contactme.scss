@@ -1,0 +1,57 @@
+.contactform {
+  margin: 2rem auto;
+  border: solid black;
+  background-color: rgba(255, 129, 0, 0.6);
+  border-radius: 0.5rem;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5;
+  color: black;
+  max-width: 90%;
+}
+.icons {
+  font-size: 4rem;
+  display: inline-block;
+  margin: 3rem auto;
+  i {
+    margin: 0.5rem 1rem;
+  }
+  a {
+    color: black;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+  }
+  a :hover {
+    color: black;
+    text-decoration: none;
+    z-index: 1;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+  }
+  a :link {
+    color: black;
+    text-decoration: none;
+  }
+  a :active {
+    color: black;
+    text-decoration: none;
+  }
+}
+.quote {
+  margin: 2rem;
+}
