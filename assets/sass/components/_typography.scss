@@ -4,7 +4,7 @@ html {
   margin: 0%;
 }
 body {
-  background-image: url("../../../Inverted-master/assets/image/bw3.jpg");
+  background-image: url("../../Inverted-master/assets/image/bw3.jpg");
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -20,6 +20,7 @@ body {
 //images//
 .image-container {
   overflow: hidden;
+  align-content: center;
 }
 
 
@@ -27,6 +28,7 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
+
 }
 
 // media querries //
