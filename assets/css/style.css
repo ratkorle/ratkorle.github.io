@@ -74,7 +74,8 @@ body {
   margin: 0; }
 
 .image-container {
-  overflow: hidden; }
+  overflow: hidden;
+  text-align: center; }
 
 .image-container img {
   display: block;
@@ -167,7 +168,8 @@ body {
   width: auto;
   margin: 0.5rem;
   border: solid black;
-  border-radius: 50%; }
+  border-radius: 50%;
+  vertical-align: middle; }
 
 .progresbars {
   margin-top: 2rem; }
